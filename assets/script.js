@@ -41,4 +41,26 @@ var questions = [
   var submitBtn = document.getElementById('submit');
   var startBtn = document.getElementById('start');
   var initialsEl = document.getElementById('initials');
+  // variables that keep track of timer and questions
+  var currentQuestionIndex = 0;
+  var time = questions.length * 15;
+  var timerId;
+  // starting function
+  function startQuiz() {
+    // hide start screen (helped by my instructors)
+    var startScreenEl = document.getElementById('start-screen');
+    startScreenEl.setAttribute('class', 'hide');
+  
+    // un-hide questions section
+    questionsEl.removeAttribute('class');
+  
+    // start timer
+    timerId = setInterval(clockTick, 1000);
+  
+    // show starting time
+    timerEl.textContent = time;
+  
+    getQuestion();
+  }
+
   
