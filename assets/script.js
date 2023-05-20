@@ -1,3 +1,4 @@
+//Created question objects to be referenced later
 var questions = [
     {
       title: 'Inside which HTML element do we put the JavaScript?',
@@ -32,4 +33,6 @@ var questions = [
       answer: 'All of the above.',
     },
   ];
+
+  
   
