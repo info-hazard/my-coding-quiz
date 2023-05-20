@@ -13,7 +13,7 @@
     <div class="timer">Time: <span id="time">0</span></div>
 
     <div class="scores"><a href="highscores.html">View Highscores</a></div>
-
+    <!--start/home screen-->
     <div class="wrapper">
       <div id="start-screen" class="start">
         <h1>Javascript Quiz</h1>
@@ -21,6 +21,20 @@
           Welcome to my Javascript quiz! Be mindful of the timer and try to get every question correct!
         </p>
         <button id="start">Start Quiz</button>
+      </div>
+      <!--setting up questions and choices to appear when button is pressed-->
+      <div id="questions" class="hide">
+        <h2 id="question-title"></h2>
+        <div id="choices" class="choices"></div>
+      </div>
+      <!--setting up end screen to appear after time runs out or final question is answered.-->
+      <div id="end-screen" class="hide">
+        <h2>All done!</h2>
+        <p>Your final score is <span id="final-score"></span>.</p>
+        <p>
+          Enter initials: <input type="text" id="initials" max="2" />
+          <button id="submit">Submit</button>
+        </p>
       </div>
 
     <script src="./assets/script.js"></script>
