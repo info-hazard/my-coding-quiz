@@ -15,6 +15,16 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
     ```
 
 ## Credits
+### Set Interval Function for timer
+https://www.w3schools.com/jsref/met_win_setinterval.asp
+    
+### Referencing DOM Elements
+https://www.w3schools.com/js/js_htmldom_elements.asp
+    
+### Javascript Hiding/Revealing elements (With some help from instructors)
+https://stackoverflow.com/questions/20518143/hiding-an-element-difference-between-javascript-attribute-and-css-style
+
+
 
 
 
