@@ -5,28 +5,20 @@
 This is a coding quiz that will help students study and prepare for similar tests in the future.
 
 ## Usage
-
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+To use this application please click on this link!
+https://info-hazard.github.io/my-coding-quiz/index.html
+    ![alt text](./assets/images/quiz.png)
 
 ## Credits
+
 ### Set Interval Function for timer
 https://www.w3schools.com/jsref/met_win_setinterval.asp
     
 ### Referencing DOM Elements
 https://www.w3schools.com/js/js_htmldom_elements.asp
     
-### Javascript Hiding/Revealing elements (With some help from instructors)
+### Javascript Hiding/Revealing elements
 https://stackoverflow.com/questions/20518143/hiding-an-element-difference-between-javascript-attribute-and-css-style
-
-
-
-
 
 ## License
 
