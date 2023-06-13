@@ -1,0 +1,23 @@
+#start-screen {
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    box-shadow: -10px 8px 0px rgb(196 181 253);
+}
+
+#start {
+    display: inline-block;
+    outline: 0;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 4px;
+    font-size: 13px;
+    height: 30px;
+    background-color: rgb(196 181 253);
+    color: white;
+    padding: 0 20px;
+    :hover {
+        background-color: #772ce8;
+    }
+
+}

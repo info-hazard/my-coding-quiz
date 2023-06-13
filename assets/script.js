@@ -49,7 +49,7 @@ var questions = [
   function startQuiz() {
     // hide start screen (helped by my instructors)
     var startScreenEl = document.getElementById('start-screen');
-    startScreenEl.setAttribute('class', 'hide');
+    startScreenEl.setAttribute('class', 'd-none');
   
     // un-hide questions section
     questionsEl.removeAttribute('class');
@@ -134,7 +134,7 @@ var questions = [
     finalScoreEl.textContent = time;
   
     // hide questions section
-    questionsEl.setAttribute('class', 'hide');
+    questionsEl.setAttribute('class', 'd-none');
   }
   
   function clockTick() {
